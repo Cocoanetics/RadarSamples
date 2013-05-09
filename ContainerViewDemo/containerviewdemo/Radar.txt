@@ -1,0 +1,43 @@
+View frame inconsistency using presentViewController + wantsFullScreenLayout Y/N
+
+
+Summary:
+
+If presentViewController is used from a VC that has wantsFullScreenLayout == NO to present a modal view with wantsFullScreenLayout == YES then the frame set is incorrect.
+
+
+Steps to Reproduce:
+
+Run the supplied Demo Project.
+- tap the top button (uses presentModalViewController)
+- note that the blue view covers the entire display, even when hiding the status bar (via the toggle button)
+- return to the root VC via the dismiss button
+- tap the second button (uses presentViewController)
+- note that the blue view background now begins below the status bar. Hiding it makes the black UIWindow background show through
+
+
+Expected Result
+
+A presentViewController with custom animations should obey the wantsFullScreenLayout property of the presented ViewController.
+
+
+Actual Results:
+
+The presented ViewController's view is always offset to match the presenting viewController's wantsFullScreenLayout property. The frame set on the manually added subview gets overridden and shifted to the same origin as the presenting viewController's view's origin.
+
+
+Regression:
+
+As demonstrated by the demo project the (now deprecated) presentModalViewController does the right thing. The behavior should be consistent between the deprecated and the method replacing it.
+
+
+Notes:
+
+The demo project has two view controllers, the RootViewController with wantsFullScreenLayout == NO, the ModalViewController with wantsFullScreenLayout == YES. When presented with presentModalViewController then ModalViewController goes properly under the status bar. When presented with the new iOS 5 method presentViewController in combination with a custom animation then the ModalViewController's view is always forcefully put below the status bar.
+
+There is a button to hide the status bar in ModalViewController. If it was presented with the deprecated method the blue background color shows because the view is properly layouted below it. With the new method the UIWindow's black color shows because the frame is set incorrectly ignoring the wantsFullScreenLayout property.
+
+The use case for this behavior is to have a root view that is showing the status bar (e.g. a scroll view showing digital catalogs). A modal view (is to be presented from this that requires hiding of the status bar, e.g. for full screen viewing of a digital catalog.
+
+The only workaround is to have also the presenting ViewController with wantsFullScreenLayout == YES and offset all subviews on the RootVC so that they don't get positioned below the status bar.
+
