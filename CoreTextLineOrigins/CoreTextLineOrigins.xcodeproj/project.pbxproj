@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A779FEE814DE71EF004E13CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A779FEE714DE71EF004E13CB /* UIKit.framework */; };
+		A779FEEA14DE71EF004E13CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A779FEE914DE71EF004E13CB /* Foundation.framework */; };
+		A779FEEC14DE71EF004E13CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A779FEEB14DE71EF004E13CB /* CoreGraphics.framework */; };
+		A779FEF214DE71EF004E13CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A779FEF014DE71EF004E13CB /* InfoPlist.strings */; };
+		A779FEF414DE71EF004E13CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A779FEF314DE71EF004E13CB /* main.m */; };
+		A779FEF814DE71EF004E13CB /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A779FEF714DE71EF004E13CB /* DTAppDelegate.m */; };
+		A779FEFB14DE71EF004E13CB /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A779FEFA14DE71EF004E13CB /* DTViewController.m */; };
+		A779FEFE14DE71EF004E13CB /* DTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A779FEFC14DE71EF004E13CB /* DTViewController_iPhone.xib */; };
+		A779FF0114DE71EF004E13CB /* DTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A779FEFF14DE71EF004E13CB /* DTViewController_iPad.xib */; };
+		A779FF0814DE729F004E13CB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A779FF0714DE729F004E13CB /* CoreText.framework */; };
+		A779FF0A14DE733E004E13CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A779FF0914DE733E004E13CB /* QuartzCore.framework */; };
+		A779FF1014DE76D2004E13CB /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A779FF0F14DE76D1004E13CB /* TextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A779FEE314DE71EF004E13CB /* CoreTextLineOrigins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTextLineOrigins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A779FEE714DE71EF004E13CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A779FEE914DE71EF004E13CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A779FEEB14DE71EF004E13CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A779FEEF14DE71EF004E13CB /* CoreTextLineOrigins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreTextLineOrigins-Info.plist"; sourceTree = "<group>"; };
+		A779FEF114DE71EF004E13CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A779FEF314DE71EF004E13CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A779FEF514DE71EF004E13CB /* CoreTextLineOrigins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreTextLineOrigins-Prefix.pch"; sourceTree = "<group>"; };
+		A779FEF614DE71EF004E13CB /* DTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		A779FEF714DE71EF004E13CB /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+		A779FEF914DE71EF004E13CB /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
+		A779FEFA14DE71EF004E13CB /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
+		A779FEFD14DE71EF004E13CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPhone.xib; sourceTree = "<group>"; };
+		A779FF0014DE71EF004E13CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController_iPad.xib; sourceTree = "<group>"; };
+		A779FF0714DE729F004E13CB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A779FF0914DE733E004E13CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A779FF0E14DE76D1004E13CB /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		A779FF0F14DE76D1004E13CB /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A779FEE014DE71EF004E13CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A779FF0A14DE733E004E13CB /* QuartzCore.framework in Frameworks */,
+				A779FF0814DE729F004E13CB /* CoreText.framework in Frameworks */,
+				A779FEE814DE71EF004E13CB /* UIKit.framework in Frameworks */,
+				A779FEEA14DE71EF004E13CB /* Foundation.framework in Frameworks */,
+				A779FEEC14DE71EF004E13CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A779FED814DE71EE004E13CB = {
+			isa = PBXGroup;
+			children = (
+				A779FF0914DE733E004E13CB /* QuartzCore.framework */,
+				A779FEED14DE71EF004E13CB /* CoreTextLineOrigins */,
+				A779FEE614DE71EF004E13CB /* Frameworks */,
+				A779FEE414DE71EF004E13CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A779FEE414DE71EF004E13CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A779FEE314DE71EF004E13CB /* CoreTextLineOrigins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A779FEE614DE71EF004E13CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A779FF0714DE729F004E13CB /* CoreText.framework */,
+				A779FEE714DE71EF004E13CB /* UIKit.framework */,
+				A779FEE914DE71EF004E13CB /* Foundation.framework */,
+				A779FEEB14DE71EF004E13CB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A779FEED14DE71EF004E13CB /* CoreTextLineOrigins */ = {
+			isa = PBXGroup;
+			children = (
+				A779FEF614DE71EF004E13CB /* DTAppDelegate.h */,
+				A779FEF714DE71EF004E13CB /* DTAppDelegate.m */,
+				A779FEF914DE71EF004E13CB /* DTViewController.h */,
+				A779FEFA14DE71EF004E13CB /* DTViewController.m */,
+				A779FF0E14DE76D1004E13CB /* TextView.h */,
+				A779FF0F14DE76D1004E13CB /* TextView.m */,
+				A779FEFC14DE71EF004E13CB /* DTViewController_iPhone.xib */,
+				A779FEFF14DE71EF004E13CB /* DTViewController_iPad.xib */,
+				A779FEEE14DE71EF004E13CB /* Supporting Files */,
+			);
+			path = CoreTextLineOrigins;
+			sourceTree = "<group>";
+		};
+		A779FEEE14DE71EF004E13CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A779FEEF14DE71EF004E13CB /* CoreTextLineOrigins-Info.plist */,
+				A779FEF014DE71EF004E13CB /* InfoPlist.strings */,
+				A779FEF314DE71EF004E13CB /* main.m */,
+				A779FEF514DE71EF004E13CB /* CoreTextLineOrigins-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A779FEE214DE71EF004E13CB /* CoreTextLineOrigins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A779FF0414DE71EF004E13CB /* Build configuration list for PBXNativeTarget "CoreTextLineOrigins" */;
+			buildPhases = (
+				A779FEDF14DE71EF004E13CB /* Sources */,
+				A779FEE014DE71EF004E13CB /* Frameworks */,
+				A779FEE114DE71EF004E13CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreTextLineOrigins;
+			productName = CoreTextLineOrigins;
+			productReference = A779FEE314DE71EF004E13CB /* CoreTextLineOrigins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A779FEDA14DE71EE004E13CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Drobnik KG";
+			};
+			buildConfigurationList = A779FEDD14DE71EE004E13CB /* Build configuration list for PBXProject "CoreTextLineOrigins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A779FED814DE71EE004E13CB;
+			productRefGroup = A779FEE414DE71EF004E13CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A779FEE214DE71EF004E13CB /* CoreTextLineOrigins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A779FEE114DE71EF004E13CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A779FEF214DE71EF004E13CB /* InfoPlist.strings in Resources */,
+				A779FEFE14DE71EF004E13CB /* DTViewController_iPhone.xib in Resources */,
+				A779FF0114DE71EF004E13CB /* DTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A779FEDF14DE71EF004E13CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A779FEF414DE71EF004E13CB /* main.m in Sources */,
+				A779FEF814DE71EF004E13CB /* DTAppDelegate.m in Sources */,
+				A779FEFB14DE71EF004E13CB /* DTViewController.m in Sources */,
+				A779FF1014DE76D2004E13CB /* TextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A779FEF014DE71EF004E13CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A779FEF114DE71EF004E13CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A779FEFC14DE71EF004E13CB /* DTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A779FEFD14DE71EF004E13CB /* en */,
+			);
+			name = DTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A779FEFF14DE71EF004E13CB /* DTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A779FF0014DE71EF004E13CB /* en */,
+			);
+			name = DTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A779FF0214DE71EF004E13CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A779FF0314DE71EF004E13CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A779FF0514DE71EF004E13CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreTextLineOrigins/CoreTextLineOrigins-Prefix.pch";
+				INFOPLIST_FILE = "CoreTextLineOrigins/CoreTextLineOrigins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A779FF0614DE71EF004E13CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreTextLineOrigins/CoreTextLineOrigins-Prefix.pch";
+				INFOPLIST_FILE = "CoreTextLineOrigins/CoreTextLineOrigins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A779FEDD14DE71EE004E13CB /* Build configuration list for PBXProject "CoreTextLineOrigins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A779FF0214DE71EF004E13CB /* Debug */,
+				A779FF0314DE71EF004E13CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A779FF0414DE71EF004E13CB /* Build configuration list for PBXNativeTarget "CoreTextLineOrigins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A779FF0514DE71EF004E13CB /* Debug */,
+				A779FF0614DE71EF004E13CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A779FEDA14DE71EE004E13CB /* Project object */;
+}
