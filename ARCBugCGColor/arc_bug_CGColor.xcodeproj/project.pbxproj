@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A5AC3D15935C8100013440 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5AC3C15935C8100013440 /* UIKit.framework */; };
+		A7A5AC3F15935C8100013440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5AC3E15935C8100013440 /* Foundation.framework */; };
+		A7A5AC4115935C8100013440 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5AC4015935C8100013440 /* CoreGraphics.framework */; };
+		A7A5AC4715935C8100013440 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A5AC4515935C8100013440 /* InfoPlist.strings */; };
+		A7A5AC4915935C8100013440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AC4815935C8100013440 /* main.m */; };
+		A7A5AC4D15935C8100013440 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AC4C15935C8100013440 /* AppDelegate.m */; };
+		A7A5AC5015935C8100013440 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AC4F15935C8100013440 /* ViewController.m */; };
+		A7A5AC5E15935C9F00013440 /* BuggyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AC5D15935C9F00013440 /* BuggyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A5AC3815935C8000013440 /* arc_bug_CGColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arc_bug_CGColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A5AC3C15935C8100013440 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7A5AC3E15935C8100013440 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7A5AC4015935C8100013440 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7A5AC4415935C8100013440 /* arc_bug_CGColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arc_bug_CGColor-Info.plist"; sourceTree = "<group>"; };
+		A7A5AC4615935C8100013440 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7A5AC4815935C8100013440 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A5AC4A15935C8100013440 /* arc_bug_CGColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arc_bug_CGColor-Prefix.pch"; sourceTree = "<group>"; };
+		A7A5AC4B15935C8100013440 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7A5AC4C15935C8100013440 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7A5AC4E15935C8100013440 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7A5AC4F15935C8100013440 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7A5AC5C15935C9F00013440 /* BuggyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuggyView.h; sourceTree = "<group>"; };
+		A7A5AC5D15935C9F00013440 /* BuggyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuggyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A5AC3515935C8000013440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5AC3D15935C8100013440 /* UIKit.framework in Frameworks */,
+				A7A5AC3F15935C8100013440 /* Foundation.framework in Frameworks */,
+				A7A5AC4115935C8100013440 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A5AC2D15935C8000013440 = {
+			isa = PBXGroup;
+			children = (
+				A7A5AC4215935C8100013440 /* arc_bug_CGColor */,
+				A7A5AC3B15935C8100013440 /* Frameworks */,
+				A7A5AC3915935C8000013440 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A5AC3915935C8000013440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5AC3815935C8000013440 /* arc_bug_CGColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A5AC3B15935C8100013440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5AC3C15935C8100013440 /* UIKit.framework */,
+				A7A5AC3E15935C8100013440 /* Foundation.framework */,
+				A7A5AC4015935C8100013440 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A5AC4215935C8100013440 /* arc_bug_CGColor */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5AC4B15935C8100013440 /* AppDelegate.h */,
+				A7A5AC4C15935C8100013440 /* AppDelegate.m */,
+				A7A5AC4E15935C8100013440 /* ViewController.h */,
+				A7A5AC4F15935C8100013440 /* ViewController.m */,
+				A7A5AC4315935C8100013440 /* Supporting Files */,
+				A7A5AC5C15935C9F00013440 /* BuggyView.h */,
+				A7A5AC5D15935C9F00013440 /* BuggyView.m */,
+			);
+			path = arc_bug_CGColor;
+			sourceTree = "<group>";
+		};
+		A7A5AC4315935C8100013440 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5AC4415935C8100013440 /* arc_bug_CGColor-Info.plist */,
+				A7A5AC4515935C8100013440 /* InfoPlist.strings */,
+				A7A5AC4815935C8100013440 /* main.m */,
+				A7A5AC4A15935C8100013440 /* arc_bug_CGColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A5AC3715935C8000013440 /* arc_bug_CGColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A5AC5915935C8100013440 /* Build configuration list for PBXNativeTarget "arc_bug_CGColor" */;
+			buildPhases = (
+				A7A5AC3415935C8000013440 /* Sources */,
+				A7A5AC3515935C8000013440 /* Frameworks */,
+				A7A5AC3615935C8000013440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arc_bug_CGColor;
+			productName = arc_bug_CGColor;
+			productReference = A7A5AC3815935C8000013440 /* arc_bug_CGColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A5AC2F15935C8000013440 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A7A5AC3215935C8000013440 /* Build configuration list for PBXProject "arc_bug_CGColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7A5AC2D15935C8000013440;
+			productRefGroup = A7A5AC3915935C8000013440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A5AC3715935C8000013440 /* arc_bug_CGColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A5AC3615935C8000013440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5AC4715935C8100013440 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A5AC3415935C8000013440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5AC4915935C8100013440 /* main.m in Sources */,
+				A7A5AC4D15935C8100013440 /* AppDelegate.m in Sources */,
+				A7A5AC5015935C8100013440 /* ViewController.m in Sources */,
+				A7A5AC5E15935C9F00013440 /* BuggyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A5AC4515935C8100013440 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A5AC4615935C8100013440 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A5AC5715935C8100013440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A5AC5815935C8100013440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A5AC5A15935C8100013440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arc_bug_CGColor/arc_bug_CGColor-Prefix.pch";
+				INFOPLIST_FILE = "arc_bug_CGColor/arc_bug_CGColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A5AC5B15935C8100013440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arc_bug_CGColor/arc_bug_CGColor-Prefix.pch";
+				INFOPLIST_FILE = "arc_bug_CGColor/arc_bug_CGColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A5AC3215935C8000013440 /* Build configuration list for PBXProject "arc_bug_CGColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A5AC5715935C8100013440 /* Debug */,
+				A7A5AC5815935C8100013440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A5AC5915935C8100013440 /* Build configuration list for PBXNativeTarget "arc_bug_CGColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A5AC5A15935C8100013440 /* Debug */,
+				A7A5AC5B15935C8100013440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A5AC2F15935C8000013440 /* Project object */;
+}

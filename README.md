@@ -7,3 +7,10 @@ Samples For Demonstrating Bug Reports we file with Apple
 - **MinMaxLineHeightBug**: [UITextView Ignores Minimum/Maximum Line Height in Attributed String](http://www.cocoanetics.com/2012/12/radar-uitextview-ignores-minimummaximum-line-height-in-attributed-string/) (rdar://12863734)
 - **NSDictionaryCGRectParsing**: [CGRectMakeWithDictionaryRepresentation] (http://www.cocoanetics.com/2012/09/radar-cgrectmakewithdictionaryrepresentation/) (rdar://12358120)
 
+###Not Bugs
+
+These have turned out not to be actual bugs but "works as designed".
+
+- **ARCBugCGColor**: [ARC releases UIColor prematurely](http://www.cocoanetics.com/2012/06/radar-arc-releases-uicolor-prematurely/) (rdar://11717864)
+
+
