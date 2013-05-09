@@ -1,7 +1,11 @@
 Radar Samples
 =============
 
-Samples For Demonstrating Bug Reports we file with Apple
+These are the sample projects we prepared to demonstrate issues we filed bug reports with Apple for. We are collecting here because they serve as nice reminders how much more likely Apple is to fix a bug if you can provide a concise sample.
+
+Another good reason for creating a sample app is because some of those bugs make you doubt your sanity while you are stuck in your own code. 
+
+Making a fresh app project designed to only demonstrate the issue and nothing more can sometimes show you that indeed the problem is located in your own code. Or it gives you certainty that indeed you found a bug in Apple's APIs.
 
 ##Open Bugs
 
