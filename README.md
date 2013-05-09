@@ -16,6 +16,10 @@ Samples For Demonstrating Bug Reports we file with Apple
 #### iOS 6
 - **CoreTextLineOrigins**: [CoreText Line Spacing Bug](http://www.cocoanetics.com/2012/02/radar-coretext-line-spacing-bug/) (rdar://10810114)
 
+#### iOS 5
+- **StatusBarBug**: [NavigationController from NIB produces sticky gray empty status bar on rotation](http://www.cocoanetics.com/2010/08/navigationcontroller-from-nib-produces-sticky-gray-empty-status-bar-on-rotation/) (rdar://8313852)
+
+
 ##Not Bugs
 
 These have turned out not to be actual bugs but "works as designed".
