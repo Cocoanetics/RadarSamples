@@ -17,6 +17,9 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ##Fixed Bugs
 
+#### iOS 7
+- **KerningTest**: [UITextView Ignores Font Kerning](http://www.cocoanetics.com/2012/12/radar-uitextview-ignores-font-kerning/)
+
 #### iOS 6
 - **CoreTextLineOrigins**: [CoreText Line Spacing Bug](http://www.cocoanetics.com/2012/02/radar-coretext-line-spacing-bug/) (rdar://10810114)
 
