@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A727D20D17DCCC3A00274774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A727D20C17DCCC3A00274774 /* Foundation.framework */; };
+		A727D20F17DCCC3A00274774 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A727D20E17DCCC3A00274774 /* CoreGraphics.framework */; };
+		A727D21117DCCC3A00274774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A727D21017DCCC3A00274774 /* UIKit.framework */; };
+		A727D21717DCCC3A00274774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A727D21517DCCC3A00274774 /* InfoPlist.strings */; };
+		A727D21917DCCC3A00274774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A727D21817DCCC3A00274774 /* main.m */; };
+		A727D21D17DCCC3A00274774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A727D21C17DCCC3A00274774 /* AppDelegate.m */; };
+		A727D22017DCCC3A00274774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A727D21E17DCCC3A00274774 /* Main.storyboard */; };
+		A727D22317DCCC3A00274774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A727D22217DCCC3A00274774 /* ViewController.m */; };
+		A727D22517DCCC3A00274774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A727D22417DCCC3A00274774 /* Images.xcassets */; };
+		A727D24317DCCC7300274774 /* TiledContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A727D24217DCCC7300274774 /* TiledContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A727D20917DCCC3A00274774 /* CATiledLayerMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATiledLayerMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A727D20C17DCCC3A00274774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A727D20E17DCCC3A00274774 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A727D21017DCCC3A00274774 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A727D21417DCCC3A00274774 /* CATiledLayerMemory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CATiledLayerMemory-Info.plist"; sourceTree = "<group>"; };
+		A727D21617DCCC3A00274774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A727D21817DCCC3A00274774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A727D21A17DCCC3A00274774 /* CATiledLayerMemory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CATiledLayerMemory-Prefix.pch"; sourceTree = "<group>"; };
+		A727D21B17DCCC3A00274774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A727D21C17DCCC3A00274774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A727D21F17DCCC3A00274774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A727D22117DCCC3A00274774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A727D22217DCCC3A00274774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A727D22417DCCC3A00274774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A727D22B17DCCC3A00274774 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A727D24117DCCC7300274774 /* TiledContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledContentView.h; sourceTree = "<group>"; };
+		A727D24217DCCC7300274774 /* TiledContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledContentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A727D20617DCCC3A00274774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A727D20F17DCCC3A00274774 /* CoreGraphics.framework in Frameworks */,
+				A727D21117DCCC3A00274774 /* UIKit.framework in Frameworks */,
+				A727D20D17DCCC3A00274774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A727D20017DCCC3A00274774 = {
+			isa = PBXGroup;
+			children = (
+				A727D21217DCCC3A00274774 /* CATiledLayerMemory */,
+				A727D20B17DCCC3A00274774 /* Frameworks */,
+				A727D20A17DCCC3A00274774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A727D20A17DCCC3A00274774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A727D20917DCCC3A00274774 /* CATiledLayerMemory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A727D20B17DCCC3A00274774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A727D20C17DCCC3A00274774 /* Foundation.framework */,
+				A727D20E17DCCC3A00274774 /* CoreGraphics.framework */,
+				A727D21017DCCC3A00274774 /* UIKit.framework */,
+				A727D22B17DCCC3A00274774 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A727D21217DCCC3A00274774 /* CATiledLayerMemory */ = {
+			isa = PBXGroup;
+			children = (
+				A727D21B17DCCC3A00274774 /* AppDelegate.h */,
+				A727D21C17DCCC3A00274774 /* AppDelegate.m */,
+				A727D21E17DCCC3A00274774 /* Main.storyboard */,
+				A727D22117DCCC3A00274774 /* ViewController.h */,
+				A727D22217DCCC3A00274774 /* ViewController.m */,
+				A727D22417DCCC3A00274774 /* Images.xcassets */,
+				A727D21317DCCC3A00274774 /* Supporting Files */,
+				A727D24117DCCC7300274774 /* TiledContentView.h */,
+				A727D24217DCCC7300274774 /* TiledContentView.m */,
+			);
+			path = CATiledLayerMemory;
+			sourceTree = "<group>";
+		};
+		A727D21317DCCC3A00274774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A727D21417DCCC3A00274774 /* CATiledLayerMemory-Info.plist */,
+				A727D21517DCCC3A00274774 /* InfoPlist.strings */,
+				A727D21817DCCC3A00274774 /* main.m */,
+				A727D21A17DCCC3A00274774 /* CATiledLayerMemory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A727D20817DCCC3A00274774 /* CATiledLayerMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A727D23B17DCCC3A00274774 /* Build configuration list for PBXNativeTarget "CATiledLayerMemory" */;
+			buildPhases = (
+				A727D20517DCCC3A00274774 /* Sources */,
+				A727D20617DCCC3A00274774 /* Frameworks */,
+				A727D20717DCCC3A00274774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATiledLayerMemory;
+			productName = CATiledLayerMemory;
+			productReference = A727D20917DCCC3A00274774 /* CATiledLayerMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A727D20117DCCC3A00274774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Oliver Drobnik";
+				TargetAttributes = {
+					A727D20817DCCC3A00274774 = {
+						DevelopmentTeam = Z7L2YCUH45;
+					};
+				};
+			};
+			buildConfigurationList = A727D20417DCCC3A00274774 /* Build configuration list for PBXProject "CATiledLayerMemory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A727D20017DCCC3A00274774;
+			productRefGroup = A727D20A17DCCC3A00274774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A727D20817DCCC3A00274774 /* CATiledLayerMemory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A727D20717DCCC3A00274774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A727D22517DCCC3A00274774 /* Images.xcassets in Resources */,
+				A727D21717DCCC3A00274774 /* InfoPlist.strings in Resources */,
+				A727D22017DCCC3A00274774 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A727D20517DCCC3A00274774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A727D22317DCCC3A00274774 /* ViewController.m in Sources */,
+				A727D24317DCCC7300274774 /* TiledContentView.m in Sources */,
+				A727D21D17DCCC3A00274774 /* AppDelegate.m in Sources */,
+				A727D21917DCCC3A00274774 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A727D21517DCCC3A00274774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A727D21617DCCC3A00274774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A727D21E17DCCC3A00274774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A727D21F17DCCC3A00274774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A727D23917DCCC3A00274774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A727D23A17DCCC3A00274774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A727D23C17DCCC3A00274774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATiledLayerMemory/CATiledLayerMemory-Prefix.pch";
+				INFOPLIST_FILE = "CATiledLayerMemory/CATiledLayerMemory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A727D23D17DCCC3A00274774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATiledLayerMemory/CATiledLayerMemory-Prefix.pch";
+				INFOPLIST_FILE = "CATiledLayerMemory/CATiledLayerMemory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A727D20417DCCC3A00274774 /* Build configuration list for PBXProject "CATiledLayerMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A727D23917DCCC3A00274774 /* Debug */,
+				A727D23A17DCCC3A00274774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A727D23B17DCCC3A00274774 /* Build configuration list for PBXNativeTarget "CATiledLayerMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A727D23C17DCCC3A00274774 /* Debug */,
+				A727D23D17DCCC3A00274774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A727D20117DCCC3A00274774 /* Project object */;
+}
