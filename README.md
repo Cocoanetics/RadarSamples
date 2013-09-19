@@ -9,6 +9,10 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ##Open Bugs
 
+### New iOS 7 Bugs
+- **CATiledLayerMemory**: [CATiledLayer Loses Visible Tiles on Memory Warning](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/)
+
+### Previous Bugs
 - **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
 - **NSDictionaryCGRectParsing**: [CGRectMakeWithDictionaryRepresentation] (http://www.cocoanetics.com/2012/09/radar-cgrectmakewithdictionaryrepresentation/) (rdar://12358120)
 - **RelationBug**: [NSFetchedResultsController does not get refreshed for added relationship](http://www.cocoanetics.com/2012/05/radar-nsfetchedresultscontroller-does-not-get-refreshed-for-added-relationship/) (rdar://11541277)
