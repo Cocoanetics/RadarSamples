@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73912FE17DF5B5400D966B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73912FD17DF5B5400D966B6 /* Foundation.framework */; };
+		A739130017DF5B5400D966B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73912FF17DF5B5400D966B6 /* CoreGraphics.framework */; };
+		A739130217DF5B5400D966B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A739130117DF5B5400D966B6 /* UIKit.framework */; };
+		A739130A17DF5B5400D966B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A739130917DF5B5400D966B6 /* main.m */; };
+		A739130E17DF5B5400D966B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A739130D17DF5B5400D966B6 /* AppDelegate.m */; };
+		A739131117DF5B5400D966B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A739130F17DF5B5400D966B6 /* Main.storyboard */; };
+		A739131417DF5B5400D966B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A739131317DF5B5400D966B6 /* ViewController.m */; };
+		A739133717DF5D4E00D966B6 /* UIImage+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A739133617DF5D4E00D966B6 /* UIImage+Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A73912FA17DF5B5400D966B6 /* RoundedRectArtifact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedRectArtifact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73912FD17DF5B5400D966B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A73912FF17DF5B5400D966B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A739130117DF5B5400D966B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A739130517DF5B5400D966B6 /* RoundedRectArtifact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedRectArtifact-Info.plist"; sourceTree = "<group>"; };
+		A739130917DF5B5400D966B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A739130B17DF5B5400D966B6 /* RoundedRectArtifact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundedRectArtifact-Prefix.pch"; sourceTree = "<group>"; };
+		A739130C17DF5B5400D966B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A739130D17DF5B5400D966B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A739131017DF5B5400D966B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A739131217DF5B5400D966B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A739131317DF5B5400D966B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A739131C17DF5B5400D966B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A739133517DF5D4E00D966B6 /* UIImage+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Test.h"; sourceTree = "<group>"; };
+		A739133617DF5D4E00D966B6 /* UIImage+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Test.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73912F717DF5B5400D966B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A739130017DF5B5400D966B6 /* CoreGraphics.framework in Frameworks */,
+				A739130217DF5B5400D966B6 /* UIKit.framework in Frameworks */,
+				A73912FE17DF5B5400D966B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73912F117DF5B5400D966B6 = {
+			isa = PBXGroup;
+			children = (
+				A739130317DF5B5400D966B6 /* RoundedRectArtifact */,
+				A73912FC17DF5B5400D966B6 /* Frameworks */,
+				A73912FB17DF5B5400D966B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73912FB17DF5B5400D966B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73912FA17DF5B5400D966B6 /* RoundedRectArtifact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73912FC17DF5B5400D966B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73912FD17DF5B5400D966B6 /* Foundation.framework */,
+				A73912FF17DF5B5400D966B6 /* CoreGraphics.framework */,
+				A739130117DF5B5400D966B6 /* UIKit.framework */,
+				A739131C17DF5B5400D966B6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A739130317DF5B5400D966B6 /* RoundedRectArtifact */ = {
+			isa = PBXGroup;
+			children = (
+				A739130C17DF5B5400D966B6 /* AppDelegate.h */,
+				A739130D17DF5B5400D966B6 /* AppDelegate.m */,
+				A739130F17DF5B5400D966B6 /* Main.storyboard */,
+				A739131217DF5B5400D966B6 /* ViewController.h */,
+				A739131317DF5B5400D966B6 /* ViewController.m */,
+				A739130417DF5B5400D966B6 /* Supporting Files */,
+				A739133517DF5D4E00D966B6 /* UIImage+Test.h */,
+				A739133617DF5D4E00D966B6 /* UIImage+Test.m */,
+			);
+			path = RoundedRectArtifact;
+			sourceTree = "<group>";
+		};
+		A739130417DF5B5400D966B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A739130517DF5B5400D966B6 /* RoundedRectArtifact-Info.plist */,
+				A739130917DF5B5400D966B6 /* main.m */,
+				A739130B17DF5B5400D966B6 /* RoundedRectArtifact-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73912F917DF5B5400D966B6 /* RoundedRectArtifact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A739132C17DF5B5400D966B6 /* Build configuration list for PBXNativeTarget "RoundedRectArtifact" */;
+			buildPhases = (
+				A73912F617DF5B5400D966B6 /* Sources */,
+				A73912F717DF5B5400D966B6 /* Frameworks */,
+				A73912F817DF5B5400D966B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedRectArtifact;
+			productName = RoundedRectArtifact;
+			productReference = A73912FA17DF5B5400D966B6 /* RoundedRectArtifact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73912F217DF5B5400D966B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Cocoanetics;
+			};
+			buildConfigurationList = A73912F517DF5B5400D966B6 /* Build configuration list for PBXProject "RoundedRectArtifact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73912F117DF5B5400D966B6;
+			productRefGroup = A73912FB17DF5B5400D966B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73912F917DF5B5400D966B6 /* RoundedRectArtifact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73912F817DF5B5400D966B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A739131117DF5B5400D966B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73912F617DF5B5400D966B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A739131417DF5B5400D966B6 /* ViewController.m in Sources */,
+				A739130E17DF5B5400D966B6 /* AppDelegate.m in Sources */,
+				A739133717DF5D4E00D966B6 /* UIImage+Test.m in Sources */,
+				A739130A17DF5B5400D966B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A739130F17DF5B5400D966B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A739131017DF5B5400D966B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A739132A17DF5B5400D966B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A739132B17DF5B5400D966B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A739132D17DF5B5400D966B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedRectArtifact/RoundedRectArtifact-Prefix.pch";
+				INFOPLIST_FILE = "RoundedRectArtifact/RoundedRectArtifact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A739132E17DF5B5400D966B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedRectArtifact/RoundedRectArtifact-Prefix.pch";
+				INFOPLIST_FILE = "RoundedRectArtifact/RoundedRectArtifact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73912F517DF5B5400D966B6 /* Build configuration list for PBXProject "RoundedRectArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A739132A17DF5B5400D966B6 /* Debug */,
+				A739132B17DF5B5400D966B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A739132C17DF5B5400D966B6 /* Build configuration list for PBXNativeTarget "RoundedRectArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A739132D17DF5B5400D966B6 /* Debug */,
+				A739132E17DF5B5400D966B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73912F217DF5B5400D966B6 /* Project object */;
+}
