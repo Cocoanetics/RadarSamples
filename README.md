@@ -10,9 +10,9 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 ##Open Bugs
 
 ### New iOS 7 Bugs
-- **CATiledLayerMemory**: [CATiledLayer Loses Visible Tiles on Memory Warning](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/)
-- **RoundedRectArtifact**: [Rounded rect bezier path with radius 3 drawn with scale 1 produces visual artifacts](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/)
-- **UIColorStrokeCrash**: [NSAttributeDictionary Returns Color that produces EXC_BAD_ACCESS on stroking](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/)
+- **CATiledLayerMemory**: [CATiledLayer Loses Visible Tiles on Memory Warning](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14942449)
+- **RoundedRectArtifact**: [Rounded rect bezier path with radius 3 drawn with scale 1 produces visual artifacts](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14954549)
+- **UIColorStrokeCrash**: [NSAttributeDictionary Returns Color that produces EXC_BAD_ACCESS on stroking](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14952597)
 
 ### Previous Bugs
 - **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
