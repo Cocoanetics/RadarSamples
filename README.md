@@ -9,6 +9,9 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ##Open Bugs
 
+### New Xcode 5 Bugs
+- **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
+
 ### New iOS 7 Bugs
 - **CATiledLayerMemory**: [CATiledLayer Loses Visible Tiles on Memory Warning](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14942449)
 - **RoundedRectArtifact**: [Rounded rect bezier path with radius 3 drawn with scale 1 produces visual artifacts](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14954549)
