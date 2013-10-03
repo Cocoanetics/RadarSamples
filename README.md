@@ -23,6 +23,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
 - **NSDictionaryCGRectParsing**: [CGRectMakeWithDictionaryRepresentation] (http://www.cocoanetics.com/2012/09/radar-cgrectmakewithdictionaryrepresentation/) (rdar://12358120)
 - **RelationBug**: [NSFetchedResultsController does not get refreshed for added relationship](http://www.cocoanetics.com/2012/05/radar-nsfetchedresultscontroller-does-not-get-refreshed-for-added-relationship/) (rdar://11541277)
+- **workmac:DTCoreTextExceptionExample**: [Enumerating NSAttributedString Attributes on Multiple Threads causes EXC_BAD_ACCESS](http://www.cocoanetics.com/2013/10/radar-enumerating-nsattributedstring-attributes-on-multiple-threads-causes-exc_bad_access/) (rdar://rdar://15139980)
 
 ##Fixed Bugs
 
