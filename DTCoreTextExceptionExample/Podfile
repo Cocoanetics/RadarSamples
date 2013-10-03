@@ -1,0 +1,3 @@
+platform :ios, '5.0'
+pod 'DTCoreText', :git => 'https://github.com/Cocoanetics/DTCoreText.git', :commit => '171817ea5b75db96e9493a2f1b14564708bf9da4'
+pod 'DTFoundation', :git => 'https://github.com/Cocoanetics/DTFoundation.git', :commit => '3b137be7e35d6ec7914300eabb47f2421eac658a'
