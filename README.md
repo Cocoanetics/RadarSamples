@@ -11,6 +11,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ### New Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
+- **UIFontDemo**: [Xcode 5 crashes trying to run unit test without bundle loader](http://www.cocoanetics.com/2013/10/radar-double-feature-xcode-crash-and-unit-test-with-uifont/) (rdar://15167061)
 
 ### New iOS 7 Bugs
 - **CATiledLayerMemory**: [CATiledLayer Loses Visible Tiles on Memory Warning](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14942449)
@@ -18,6 +19,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **UIColorStrokeCrash**: [NSAttributeDictionary Returns Color that produces EXC_BAD_ACCESS on stroking](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14952597)
 - **LogTest**: [asl_search only finds messages with ReadUID set](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14670536) 
 - **ScanAreaBug**: [AVCaptureMetadataOutput ignores Full-Screen rectOfInterest](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14427767)
+- **UIFontDemo** [Instantiating a UIFont in Unit Test should not require a test host](http://www.cocoanetics.com/2013/10/radar-double-feature-xcode-crash-and-unit-test-with-uifont/) (rdar://15166866)
 
 ### Previous Bugs
 - **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
