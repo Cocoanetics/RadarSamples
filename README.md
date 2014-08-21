@@ -9,6 +9,9 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ##Open Bugs
 
+### New iOS 8 Bugs
+- **LocalNotification** App Delegate method didReceiveLocalNotification not being called, rdar://17976899
+
 ### New Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
 - **UIFontDemo**: [Xcode 5 crashes trying to run unit test without bundle loader](http://www.cocoanetics.com/2013/10/radar-double-feature-xcode-crash-and-unit-test-with-uifont/) (rdar://15167061)
