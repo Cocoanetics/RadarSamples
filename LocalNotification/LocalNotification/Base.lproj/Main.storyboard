@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8g5-Tb-VUM">
+                                <rect key="frame" x="175" y="20" width="251" height="30"/>
+                                <state key="normal" title="Send Local Notification in 5 seconds">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendNote:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MdJ-ZY-X1x"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="219" translatesAutoresizingMaskIntoConstraints="NO" id="kzV-Zo-iQe">
+                                <rect key="frame" x="16" y="58" width="219" height="41"/>
+                                <string key="text">application:
+didReceiveLocalNotification:</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpS-AO-4xR">
+                                <rect key="frame" x="243" y="78" width="63" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="7" id="Bdg-Gu-1fm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="63" id="wfz-Rf-mcN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Bdg-Gu-1fm"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="511" translatesAutoresizingMaskIntoConstraints="NO" id="PMe-wk-JRJ">
+                                <rect key="frame" x="16" y="107" width="511" height="473"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="pn8-iJ-Y3W"/>
+                                    <constraint firstAttribute="height" constant="473" id="xjI-tA-iZL"/>
+                                </constraints>
+                                <string key="text">1) Push button, note the checkmark appearing while app is active.
+2) Push button, send app to background via home. Tap on received alert. App becomes active again. iOS 7: check mark appears, iOS 8: check mark does not appear
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pn8-iJ-Y3W"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="8g5-Tb-VUM" secondAttribute="centerX" id="DUR-SG-TwG"/>
+                            <constraint firstItem="PMe-wk-JRJ" firstAttribute="top" secondItem="kzV-Zo-iQe" secondAttribute="bottom" constant="8" symbolic="YES" id="DVf-D3-vGe"/>
+                            <constraint firstItem="kzV-Zo-iQe" firstAttribute="top" secondItem="8g5-Tb-VUM" secondAttribute="bottom" constant="8" id="ODQ-WI-iZD"/>
+                            <constraint firstItem="8g5-Tb-VUM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="OSQ-5v-2a2"/>
+                            <constraint firstItem="kzV-Zo-iQe" firstAttribute="baseline" secondItem="BpS-AO-4xR" secondAttribute="baseline" id="aac-SM-UFQ"/>
+                            <constraint firstItem="BpS-AO-4xR" firstAttribute="top" secondItem="8g5-Tb-VUM" secondAttribute="bottom" constant="28" id="h7j-3o-VwH"/>
+                            <constraint firstItem="BpS-AO-4xR" firstAttribute="leading" secondItem="kzV-Zo-iQe" secondAttribute="trailing" constant="8" id="hrd-dD-Jen"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PMe-wk-JRJ" secondAttribute="trailing" constant="57" id="iel-gD-eet"/>
+                            <constraint firstItem="kzV-Zo-iQe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="jBn-hh-S8W"/>
+                            <constraint firstItem="PMe-wk-JRJ" firstAttribute="leading" secondItem="kzV-Zo-iQe" secondAttribute="leading" id="kKT-9K-adu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkLabel" destination="BpS-AO-4xR" id="ai0-29-ECy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
