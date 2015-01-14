@@ -14,7 +14,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **SizeClassBug** [Incorrect Horizontal Size class with “present as popover” on iPhone 6+](http://www.cocoanetics.com/2014/11/radar-incorrect-horizontal-size-class/) (rdar://18893122)
 - **PickerBug** [UIImagePicker returns offset cropped image](http://www.cocoanetics.com/2014/11/radar-uiimagepicker-returns-offset-cropped-image/) (rdar://18957593)
 - **ActionsBug** [tableView:didEndEditingRowAtIndexPath: not being called following cancelled swipe-to-edit](http://www.cocoanetics.com/2015/01/radar-swipe-to-edit-on-uitableview/) (rdar://19411256)
-- **CompositingBug** [UIImageView in UIScrollView Compositing Flashing](http://www.cocoanetics.com/2015/01/radar-uiimageview-in-uiscrollview-compositing-flashing/) (rdar://19323748)
+- **CompositionBug** [UIImageView in UIScrollView Compositing Flashing](http://www.cocoanetics.com/2015/01/radar-uiimageview-in-uiscrollview-compositing-flashing/) (rdar://19323748)
 
 ### New Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
