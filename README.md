@@ -9,18 +9,18 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ##Open Bugs
 
-### New iOS 8 Bugs
+### iOS 8 Bugs
 - **LocalNotification** App Delegate method didReceiveLocalNotification not being called, rdar://17976899
 - **SizeClassBug** [Incorrect Horizontal Size class with “present as popover” on iPhone 6+](http://www.cocoanetics.com/2014/11/radar-incorrect-horizontal-size-class/) (rdar://18893122)
 - **PickerBug** [UIImagePicker returns offset cropped image](http://www.cocoanetics.com/2014/11/radar-uiimagepicker-returns-offset-cropped-image/) (rdar://18957593)
 - **ActionsBug** [tableView:didEndEditingRowAtIndexPath: not being called following cancelled swipe-to-edit](http://www.cocoanetics.com/2015/01/radar-swipe-to-edit-on-uitableview/) (rdar://19411256)
 - **CompositionBug** [UIImageView in UIScrollView Compositing Flashing](http://www.cocoanetics.com/2015/01/radar-uiimageview-in-uiscrollview-compositing-flashing/) (rdar://19323748)
 
-### New Xcode 5 Bugs
+### Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
 - **UIFontDemo**: [Xcode 5 crashes trying to run unit test without bundle loader](http://www.cocoanetics.com/2013/10/radar-double-feature-xcode-crash-and-unit-test-with-uifont/) (rdar://15167061)
 
-### New iOS 7 Bugs
+### iOS 7 Bugs
 - **CATiledLayerMemory**: [CATiledLayer Loses Visible Tiles on Memory Warning](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14942449)
 - **RoundedRectArtifact**: [Rounded rect bezier path with radius 3 drawn with scale 1 produces visual artifacts](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14954549)
 - **UIColorStrokeCrash**: [NSAttributeDictionary Returns Color that produces EXC_BAD_ACCESS on stroking](http://www.cocoanetics.com/2013/09/welcome-to-ios-7-issues/) (rdar://14952597)
@@ -29,12 +29,14 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **UIFontDemo** [Instantiating a UIFont in Unit Test should not require a test host](http://www.cocoanetics.com/2013/10/radar-double-feature-xcode-crash-and-unit-test-with-uifont/) (rdar://15166866)
 
 ### Previous Bugs
-- **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
 - **NSDictionaryCGRectParsing**: [CGRectMakeWithDictionaryRepresentation] (http://www.cocoanetics.com/2012/09/radar-cgrectmakewithdictionaryrepresentation/) (rdar://12358120)
 - **RelationBug**: [NSFetchedResultsController does not get refreshed for added relationship](http://www.cocoanetics.com/2012/05/radar-nsfetchedresultscontroller-does-not-get-refreshed-for-added-relationship/) (rdar://11541277)
-- **workmac:DTCoreTextExceptionExample**: [Enumerating NSAttributedString Attributes on Multiple Threads causes EXC_BAD_ACCESS](http://www.cocoanetics.com/2013/10/radar-enumerating-nsattributedstring-attributes-on-multiple-threads-causes-exc_bad_access/) (rdar://rdar://15139980)
+- **DTCoreTextExceptionExample**: [Enumerating NSAttributedString Attributes on Multiple Threads causes EXC_BAD_ACCESS](http://www.cocoanetics.com/2013/10/radar-enumerating-nsattributedstring-attributes-on-multiple-threads-causes-exc_bad_access/) (rdar://rdar://15139980)
 
 ##Fixed Bugs
+
+#### iOS 8.3
+- **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
 
 #### iOS 7
 - **KerningTest**: [UITextView Ignores Font Kerning](http://www.cocoanetics.com/2012/12/radar-uitextview-ignores-font-kerning/)
