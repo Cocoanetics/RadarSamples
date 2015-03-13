@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="z0y-HI-UYw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+    </dependencies>
+    <scenes>
+        <!--In-App App-Store Delegate Bug-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ie4-A0-X5x">
+                                <rect key="frame" x="260" y="285" width="80" height="30"/>
+                                <state key="normal" title="Show Store">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapStore:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Aim-pi-IZc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZz-JP-jG0">
+                                <rect key="frame" x="16" y="72" width="568" height="142"/>
+                                <string key="text">If you don't set a delegate on SKStoreProductViewController and present it from a view controller inside a nav controller you see a Cancel button. This Cancel button destroys the view hierarchy.
+
+1) Tap on "Show Store"
+2) Tap on Cancel
+3) Note that the view turns blank (it shouldn't)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LZz-JP-jG0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="HJm-Zq-7W7"/>
+                            <constraint firstAttribute="centerY" secondItem="ie4-A0-X5x" secondAttribute="centerY" id="UqH-ws-gfh"/>
+                            <constraint firstItem="ie4-A0-X5x" firstAttribute="top" relation="greaterThanOrEqual" secondItem="LZz-JP-jG0" secondAttribute="bottom" constant="8" id="VTR-yH-r4H"/>
+                            <constraint firstAttribute="trailing" secondItem="LZz-JP-jG0" secondAttribute="trailing" constant="16" id="kau-YG-0ub"/>
+                            <constraint firstItem="LZz-JP-jG0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="oC6-iv-fMW"/>
+                            <constraint firstAttribute="centerX" secondItem="ie4-A0-X5x" secondAttribute="centerX" id="wGZ-5H-mWA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="In-App App-Store Delegate Bug" id="8TS-os-bCa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="632"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g06-6Q-Ute">
+            <objects>
+                <navigationController id="z0y-HI-UYw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="brw-MS-4Mr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="uG9-pe-f6k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSZ-Lc-r9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="-356"/>
+        </scene>
+    </scenes>
+</document>
