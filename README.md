@@ -16,6 +16,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **ActionsBug** [tableView:didEndEditingRowAtIndexPath: not being called following cancelled swipe-to-edit](http://www.cocoanetics.com/2015/01/radar-swipe-to-edit-on-uitableview/) (rdar://19411256)
 - **CompositionBug** [UIImageView in UIScrollView Compositing Flashing](http://www.cocoanetics.com/2015/01/radar-uiimageview-in-uiscrollview-compositing-flashing/) (rdar://19323748)
 - **StoreKitSheetTest** [SKStoreProductViewController cancel button issue](http://www.openradar.me/radar?id=5305669536186368) (rdar://20090284)
+- **StoreKitVCBug** [SKStoreProductViewController does not call loading completion block](http://www.cocoanetics.com/2015/03/implementing-an-in-app-app-store/) (rdar://20089825)
 
 ### Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
