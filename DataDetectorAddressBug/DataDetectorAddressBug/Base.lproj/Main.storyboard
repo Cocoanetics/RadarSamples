@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-QS-GD1">
+                                <rect key="frame" x="16" y="226" width="568" height="83"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="FQP-57-jSk"/>
+                                </constraints>
+                                <string key="text">Rinnböckstrasse 48/3/17
+1110 Vienna
+Austria</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Address has the starcase or level number in second place. The street number is 48." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZr-q3-Vkc">
+                                <rect key="frame" x="16" y="177" width="568" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The /17 is not considered by the UITextView's data detector." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiZ-bG-7DF">
+                                <rect key="frame" x="16" y="317" width="568" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="BZb-37-uMZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKx-4r-Ggu">
+                                <rect key="frame" x="16" y="437" width="568" height="83"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="K5n-1x-Fyz"/>
+                                </constraints>
+                                <string key="text">Rosa-Jochmann-Ring 42/3/5/19
+1110 Vienna
+Austria</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The following valid address has street number 42, block 3, level 5 and appartment 19." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnb-bE-oEs">
+                                <rect key="frame" x="16" y="388" width="568" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Again NSDataDetector stops parsing at the second slash." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0A-Lf-2GA">
+                                <rect key="frame" x="16" y="528" width="568" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="VyI-7I-yCI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P80-c7-txw">
+                                <rect key="frame" x="16" y="64" width="568" height="83"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="UQJ-J2-RsP"/>
+                                </constraints>
+                                <string key="text">Rinnböckstrasse 48/17
+1110 Vienna
+Austria</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All parts of this address with one slash are properly detected and marked." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjl-Cp-PS9">
+                                <rect key="frame" x="16" y="35" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uZr-q3-Vkc" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="1dC-fR-FCs"/>
+                            <constraint firstItem="iiZ-bG-7DF" firstAttribute="leading" secondItem="Tds-QS-GD1" secondAttribute="leading" id="44v-7f-D5p"/>
+                            <constraint firstItem="i0A-Lf-2GA" firstAttribute="trailing" secondItem="PKx-4r-Ggu" secondAttribute="trailing" id="52w-Xv-OIu"/>
+                            <constraint firstItem="Tds-QS-GD1" firstAttribute="top" secondItem="uZr-q3-Vkc" secondAttribute="bottom" constant="8" id="6dc-Ug-y3J"/>
+                            <constraint firstItem="Tds-QS-GD1" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="7J7-oK-b2U"/>
+                            <constraint firstItem="iiZ-bG-7DF" firstAttribute="top" secondItem="Tds-QS-GD1" secondAttribute="bottom" constant="8" id="9ri-NC-zEy"/>
+                            <constraint firstItem="i0A-Lf-2GA" firstAttribute="leading" secondItem="PKx-4r-Ggu" secondAttribute="leading" id="ALU-UG-0qt"/>
+                            <constraint firstItem="fnb-bE-oEs" firstAttribute="leading" secondItem="PKx-4r-Ggu" secondAttribute="leading" id="F6K-bt-obU"/>
+                            <constraint firstItem="PKx-4r-Ggu" firstAttribute="top" secondItem="fnb-bE-oEs" secondAttribute="bottom" constant="8" id="Hgc-x0-oil"/>
+                            <constraint firstItem="fnb-bE-oEs" firstAttribute="top" secondItem="iiZ-bG-7DF" secondAttribute="bottom" constant="30" id="LRV-UQ-rii"/>
+                            <constraint firstItem="i0A-Lf-2GA" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Lc6-Qg-hoH"/>
+                            <constraint firstItem="P80-c7-txw" firstAttribute="top" secondItem="zjl-Cp-PS9" secondAttribute="bottom" constant="8" id="QLo-4a-20k"/>
+                            <constraint firstItem="zjl-Cp-PS9" firstAttribute="leading" secondItem="P80-c7-txw" secondAttribute="leading" id="RuX-TA-MlM"/>
+                            <constraint firstItem="PKx-4r-Ggu" firstAttribute="leading" secondItem="fnb-bE-oEs" secondAttribute="leading" id="SHJ-2p-Zjy"/>
+                            <constraint firstItem="PKx-4r-Ggu" firstAttribute="trailing" secondItem="fnb-bE-oEs" secondAttribute="trailing" id="TLK-ws-et1"/>
+                            <constraint firstItem="iiZ-bG-7DF" firstAttribute="trailing" secondItem="Tds-QS-GD1" secondAttribute="trailing" id="Vua-CM-bJv"/>
+                            <constraint firstItem="zjl-Cp-PS9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Y0v-br-brD"/>
+                            <constraint firstItem="zjl-Cp-PS9" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="az9-LF-s5T"/>
+                            <constraint firstItem="zjl-Cp-PS9" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="15" id="c26-4R-TV6"/>
+                            <constraint firstItem="zjl-Cp-PS9" firstAttribute="trailing" secondItem="P80-c7-txw" secondAttribute="trailing" id="dWn-PG-0Te"/>
+                            <constraint firstItem="uZr-q3-Vkc" firstAttribute="top" secondItem="P80-c7-txw" secondAttribute="bottom" constant="30" id="ebD-VK-dMj"/>
+                            <constraint firstItem="i0A-Lf-2GA" firstAttribute="top" secondItem="PKx-4r-Ggu" secondAttribute="bottom" constant="8" id="f00-Cl-DCd"/>
+                            <constraint firstItem="i0A-Lf-2GA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="qzN-o0-2zF"/>
+                            <constraint firstItem="uZr-q3-Vkc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="s6S-Gq-71b"/>
+                            <constraint firstItem="Tds-QS-GD1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="yKM-HU-i9H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstAddressTextView" destination="Tds-QS-GD1" id="k1h-oj-goF"/>
+                        <outlet property="secondAddressTextView" destination="PKx-4r-Ggu" id="Rky-is-N7O"/>
+                        <outlet property="workingAddressTextView" destination="P80-c7-txw" id="udY-pZ-SAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
