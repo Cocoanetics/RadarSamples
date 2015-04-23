@@ -18,6 +18,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **StoreKitSheetTest** [SKStoreProductViewController cancel button issue](http://www.openradar.me/radar?id=5305669536186368) (rdar://20090284)
 - **StoreKitVCBug** [SKStoreProductViewController does not call loading completion block](http://www.cocoanetics.com/2015/03/implementing-an-in-app-app-store/) (rdar://20089825)
 - **DataDetectorBug** [Address Detection broken for addresses with more than one slash](http://www.cocoanetics.com/2015/04/radar-nsdatadetector-bug/) (rdar://20549548)
+- **CLGeoCoderBug** [CLGeoCoder mistakes supplementary numbers for street address](http://www.cocoanetics.com/2015/04/radar-clgeocoder-bug/) (rdar://20665320)
 
 ### Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
