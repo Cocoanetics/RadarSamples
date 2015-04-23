@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="GeoCoderBug" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ed3-YT-pCe">
+                                <rect key="frame" x="0.0" y="79" width="600" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="R1q-F7-Jjf"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="F9l-q6-axV"/>
+                                </connections>
+                            </mapView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0md-SU-kXn">
+                                <rect key="frame" x="0.0" y="366" width="600" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="LFh-y1-BNs"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="p83-ed-qp5"/>
+                                </connections>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="752" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Atb-cl-ga9">
+                                <rect key="frame" x="8" y="327" width="584" height="31"/>
+                                <string key="text">Rosa-Jochmann-Ring 42/4/5/30
+ ➜ Pin should be at street #42 (green) but is at #5 (red)</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKB-QS-3ga">
+                                <rect key="frame" x="8" y="40" width="584" height="31"/>
+                                <string key="text">Rinnböckstrasse 48/17
+ ➜ Pin should be at street #48 (green), but is #17 (red)</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="752" text="Tap the pins to see the address returned by CLGeoCoder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXw-KO-cGL">
+                                <rect key="frame" x="8" y="614" width="584" height="15"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Atb-cl-ga9" firstAttribute="top" secondItem="Ed3-YT-pCe" secondAttribute="bottom" constant="8" id="2Zs-yb-RjL"/>
+                            <constraint firstItem="Atb-cl-ga9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="8" id="2fW-uR-0hk"/>
+                            <constraint firstItem="oXw-KO-cGL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="8" id="9xC-aS-2rb"/>
+                            <constraint firstAttribute="trailing" secondItem="Atb-cl-ga9" secondAttribute="trailing" constant="8" id="EaL-Vs-MjZ"/>
+                            <constraint firstItem="Ed3-YT-pCe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="JBr-dR-R5Z"/>
+                            <constraint firstItem="oXw-KO-cGL" firstAttribute="top" secondItem="0md-SU-kXn" secondAttribute="bottom" constant="8" id="MOD-e7-0BP"/>
+                            <constraint firstItem="0md-SU-kXn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="PvH-Sl-owu"/>
+                            <constraint firstAttribute="trailing" secondItem="Ed3-YT-pCe" secondAttribute="trailing" id="Saw-kW-Kiz"/>
+                            <constraint firstAttribute="trailing" secondItem="0md-SU-kXn" secondAttribute="trailing" id="SwP-Pj-q3k"/>
+                            <constraint firstAttribute="trailing" secondItem="oXw-KO-cGL" secondAttribute="trailing" constant="8" id="Zxn-Jj-2lP"/>
+                            <constraint firstItem="dKB-QS-3ga" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="8" id="aon-Ed-gpn"/>
+                            <constraint firstItem="dKB-QS-3ga" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="cb0-Pl-5K4"/>
+                            <constraint firstItem="0md-SU-kXn" firstAttribute="top" secondItem="Atb-cl-ga9" secondAttribute="bottom" constant="8" id="s1c-az-kWr"/>
+                            <constraint firstAttribute="trailing" secondItem="dKB-QS-3ga" secondAttribute="trailing" constant="8" id="suc-Sg-1BQ"/>
+                            <constraint firstItem="Ed3-YT-pCe" firstAttribute="top" secondItem="dKB-QS-3ga" secondAttribute="bottom" constant="8" id="xyk-4r-5UM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView1" destination="Ed3-YT-pCe" id="yLK-X5-P2A"/>
+                        <outlet property="mapView2" destination="0md-SU-kXn" id="1O6-gw-5JC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77818EC1AE8DD2A00CF67DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77818EB1AE8DD2A00CF67DB /* AppDelegate.swift */; };
+		A77818EE1AE8DD2A00CF67DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77818ED1AE8DD2A00CF67DB /* ViewController.swift */; };
+		A77818F11AE8DD2A00CF67DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77818EF1AE8DD2A00CF67DB /* Main.storyboard */; };
+		A77818F31AE8DD2A00CF67DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77818F21AE8DD2A00CF67DB /* Images.xcassets */; };
+		A77818F61AE8DD2A00CF67DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77818F41AE8DD2A00CF67DB /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A77818E61AE8DD2A00CF67DB /* GeoCoderBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCoderBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77818EA1AE8DD2A00CF67DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77818EB1AE8DD2A00CF67DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A77818ED1AE8DD2A00CF67DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A77818F01AE8DD2A00CF67DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A77818F21AE8DD2A00CF67DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A77818F51AE8DD2A00CF67DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77818E31AE8DD2A00CF67DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77818DD1AE8DD2A00CF67DB = {
+			isa = PBXGroup;
+			children = (
+				A77818E81AE8DD2A00CF67DB /* GeoCoderBug */,
+				A77818E71AE8DD2A00CF67DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77818E71AE8DD2A00CF67DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77818E61AE8DD2A00CF67DB /* GeoCoderBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77818E81AE8DD2A00CF67DB /* GeoCoderBug */ = {
+			isa = PBXGroup;
+			children = (
+				A77818EB1AE8DD2A00CF67DB /* AppDelegate.swift */,
+				A77818ED1AE8DD2A00CF67DB /* ViewController.swift */,
+				A77818EF1AE8DD2A00CF67DB /* Main.storyboard */,
+				A77818F21AE8DD2A00CF67DB /* Images.xcassets */,
+				A77818F41AE8DD2A00CF67DB /* LaunchScreen.xib */,
+				A77818E91AE8DD2A00CF67DB /* Supporting Files */,
+			);
+			path = GeoCoderBug;
+			sourceTree = "<group>";
+		};
+		A77818E91AE8DD2A00CF67DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77818EA1AE8DD2A00CF67DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77818E51AE8DD2A00CF67DB /* GeoCoderBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77819051AE8DD2A00CF67DB /* Build configuration list for PBXNativeTarget "GeoCoderBug" */;
+			buildPhases = (
+				A77818E21AE8DD2A00CF67DB /* Sources */,
+				A77818E31AE8DD2A00CF67DB /* Frameworks */,
+				A77818E41AE8DD2A00CF67DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCoderBug;
+			productName = GeoCoderBug;
+			productReference = A77818E61AE8DD2A00CF67DB /* GeoCoderBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77818DE1AE8DD2A00CF67DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Cocoanetics;
+				TargetAttributes = {
+					A77818E51AE8DD2A00CF67DB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A77818E11AE8DD2A00CF67DB /* Build configuration list for PBXProject "GeoCoderBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77818DD1AE8DD2A00CF67DB;
+			productRefGroup = A77818E71AE8DD2A00CF67DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77818E51AE8DD2A00CF67DB /* GeoCoderBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77818E41AE8DD2A00CF67DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77818F11AE8DD2A00CF67DB /* Main.storyboard in Resources */,
+				A77818F61AE8DD2A00CF67DB /* LaunchScreen.xib in Resources */,
+				A77818F31AE8DD2A00CF67DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77818E21AE8DD2A00CF67DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77818EE1AE8DD2A00CF67DB /* ViewController.swift in Sources */,
+				A77818EC1AE8DD2A00CF67DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A77818EF1AE8DD2A00CF67DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77818F01AE8DD2A00CF67DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A77818F41AE8DD2A00CF67DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77818F51AE8DD2A00CF67DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77819031AE8DD2A00CF67DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A77819041AE8DD2A00CF67DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77819061AE8DD2A00CF67DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoCoderBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A77819071AE8DD2A00CF67DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoCoderBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77818E11AE8DD2A00CF67DB /* Build configuration list for PBXProject "GeoCoderBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77819031AE8DD2A00CF67DB /* Debug */,
+				A77819041AE8DD2A00CF67DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77819051AE8DD2A00CF67DB /* Build configuration list for PBXNativeTarget "GeoCoderBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77819061AE8DD2A00CF67DB /* Debug */,
+				A77819071AE8DD2A00CF67DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77818DE1AE8DD2A00CF67DB /* Project object */;
+}
