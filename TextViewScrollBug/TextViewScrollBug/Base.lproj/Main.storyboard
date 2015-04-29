@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pz2-Qb-7RL">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61G-sw-zXi">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">About This App
+
+Philosophy: When we love a person our heart leaps whenever we see things that remind us of our beloved, and so we call such reminders beautiful, and they bring not just joy to our lives, they also in a sense magnetize us, keeping us true to the way of life our lover approved of. So classic design isn't something we should despise, on the contrary it’s a sort of anchor to good that brings happiness to our lives and roots us in virtue.
+
+Perception: We think that the old version of iOS Notes with skeuomorphism featuring the Notify font, and yellow lined paper, and leather looking top bar, reminds us of Steve Jobs more powerfully than any other iOS App. We also think Steve Jobs is good and loving him makes us a better person.
+
+Benefit: We therefore think that a Notes App with a leather top bar and yellow lined paper will bring joy and virtue to our lives, and we hope you feel the same way, and so we built this App for ourselves and are sharing it with you as well. Apple have changed style with iOS7, and that’s fine but it does risk cutting the chords of love, therefore from a philosophical and ethical point of view, we also think it’s important that a classic style version of Notes be available in the App Store for those who, like us, want to be reminded of the wonderful Steve Jobs and his remarkable story.
+
+Design Changes: We worked hard to bring you the look and feel of the old Notes App, not just coding the scrolling notepaper lines, not just drawing leather looking title bars and icons that look the same as the original app, but also doing all sorts of difficult little things such as replicating the square buttons of the original App which doesn’t happen by default. However, we also want you to use this App every day to bring that spirit of Steve Jobs into your lives, so we decided to tweak the original design, dropping the bottom buttons to save screen space making the App more usable, and we think Steve Jobs would approve of that because he said to Tim Cook before he died words to the effect of “Don’t just do it the way I did it, make it better”. So we think this version of Notes captures both his spirit and his perfectionism. And here is another example of that perfectionism: if you switch back to Notes menu, and then back into this Notes, the scroll position will be saved so you can carry on reading where you left off, and this is the way it should be, but none of the competitors we have seen in the App Store do it this way.
+
+Interface Notes: You can change the application font by going into your iOS Settings menu, and scrolling down to find this Notes App, then selecting from a short list of fonts, which is precisely how the original App worked.
+
+Credits:
+
+Philosophy: William Hooper – A Platonist Philosopher from the UK who really loves Steve Jobs, and who was inspired and educated not just by his example, but also his philosophising (e.g. Steve Jobs said many wise things such as his story about the craftsman who ignores all the customers and accountants begging him to use plywood at the back of the wardrobe to cut costs, and who instead carries the quality right through because he is focusing on the form of craftsmanship, not some existential appearance).
+
+Code: Oliver Drobnik – An iOS Developer from Austria who is a really experienced and really professional, and who takes life very seriously, but who has also in his own way been touched by the amazing Steve Jobs, and feels that wonderful love and joy.
+
+Contact William at: email@theoligarch.com</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="61G-sw-zXi" secondAttribute="trailing" id="GQC-jZ-Tdn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="61G-sw-zXi" secondAttribute="bottom" id="Ntp-W0-Rre"/>
+                            <constraint firstItem="61G-sw-zXi" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="SIk-aq-bYy"/>
+                            <constraint firstItem="61G-sw-zXi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="s62-M6-B7E"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aVy-av-dP3">
+                        <barButtonItem key="rightBarButtonItem" title="Resign" id="4oP-Vf-wwR">
+                            <connections>
+                                <action selector="hideKeyboard:" destination="vXZ-lx-hvc" id="haE-J4-XvO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="61G-sw-zXi" id="JRr-pd-mrz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="283" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0KT-VI-zyh">
+            <objects>
+                <navigationController id="pz2-Qb-7RL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KLI-By-9tR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="SC9-ob-5Uw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Irb-Zo-aY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452" y="429"/>
+        </scene>
+    </scenes>
+</document>
