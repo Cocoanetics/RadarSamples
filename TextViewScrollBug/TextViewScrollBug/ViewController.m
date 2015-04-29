@@ -15,6 +15,9 @@
 @implementation ViewController
 
 #pragma mark - Notifications
+{
+	BOOL _didScrollToTop;
+}
 
 - (void)viewDidLoad
 {
@@ -34,8 +37,12 @@
 {
 	[super viewDidLayoutSubviews];
 	
-	// show scrolled to top
-	self.textView.contentOffset = CGPointZero;
+	if (!_didScrollToTop)
+	{
+		// show scrolled to top on first layout. viewWillAppear does not work
+		self.textView.contentOffset = CGPointZero;
+		_didScrollToTop = YES;
+	}
 }
 
 - (void)dealloc
