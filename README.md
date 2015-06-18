@@ -9,6 +9,10 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ##Open Bugs
 
+### iOS 9 Bugs
+
+- **ABUnknownPersionViewControllerBug** [2 ABUnknownPersionViewController Issues](http://www.cocoanetics.com/2015/06/radar-abunknow…viewcontroller/) (rdar://21357089, rdar://21438771)
+
 ### iOS 8 Bugs
 - **LocalNotification** App Delegate method didReceiveLocalNotification not being called, rdar://17976899
 - **SizeClassBug** [Incorrect Horizontal Size class with “present as popover” on iPhone 6+](http://www.cocoanetics.com/2014/11/radar-incorrect-horizontal-size-class/) (rdar://18893122)
@@ -20,7 +24,6 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **DataDetectorBug** [Address Detection broken for addresses with more than one slash](http://www.cocoanetics.com/2015/04/radar-nsdatadetector-bug/) (rdar://20549548)
 - **CLGeoCoderBug** [CLGeoCoder mistakes supplementary numbers for street address](http://www.cocoanetics.com/2015/04/radar-clgeocoder-bug/) (rdar://20665320)
 - **TextViewScrollBug** [UITextView scroll position jumps around beginning/ending editing](http://www.cocoanetics.com/2015/04/radar-uitextview-scroll-position-bug/)(rdar://20743459)
-- **TransitionTest** [Percent-driven Interactive Animation has side effect on cancel at 0%](https://www.cocoanetics.com/2015/03/4-radars-percentage-driven-modal-transitions/) (rdar://20068860)
 
 ### Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
@@ -40,6 +43,10 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **DTCoreTextExceptionExample**: [Enumerating NSAttributedString Attributes on Multiple Threads causes EXC_BAD_ACCESS](http://www.cocoanetics.com/2013/10/radar-enumerating-nsattributedstring-attributes-on-multiple-threads-causes-exc_bad_access/) (rdar://rdar://15139980)
 
 ##Fixed Bugs
+
+### iOS 9
+
+- **TransitionTest** [Percent-driven Interactive Animation has side effect on cancel at 0%](https://www.cocoanetics.com/2015/03/4-radars-percentage-driven-modal-transitions/) (rdar://20068860)
 
 #### iOS 8.3
 - **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
