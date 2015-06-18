@@ -11,7 +11,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ### iOS 9 Bugs
 
-- **ABUnknownPersionViewControllerBug** [2 ABUnknownPersionViewController Issues](http://www.cocoanetics.com/2015/06/radar-abunknow…viewcontroller/) (rdar://21357089, rdar://21438771)
+- **ABUnknownPersionViewControllerBug** [ABUnknownPersionViewController](http://www.cocoanetics.com/2015/06/radar-abunknownpersionviewcontroller/) (rdar://21357089, rdar://21438771)
 
 ### iOS 8 Bugs
 - **LocalNotification** App Delegate method didReceiveLocalNotification not being called, rdar://17976899
