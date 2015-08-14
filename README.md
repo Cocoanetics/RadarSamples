@@ -24,6 +24,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **DataDetectorBug** [Address Detection broken for addresses with more than one slash](http://www.cocoanetics.com/2015/04/radar-nsdatadetector-bug/) (rdar://20549548)
 - **CLGeoCoderBug** [CLGeoCoder mistakes supplementary numbers for street address](http://www.cocoanetics.com/2015/04/radar-clgeocoder-bug/) (rdar://20665320)
 - **TextViewScrollBug** [UITextView scroll position jumps around beginning/ending editing](http://www.cocoanetics.com/2015/04/radar-uitextview-scroll-position-bug/)(rdar://20743459)
+- **AutomaticHeightBug** UITableView Automatic Height Bug (rdar://22193223)
 
 ### Xcode 5 Bugs
 - **UnitTestsTest**: [Xcode 5 unable to configure inline Unit Tests for iOS and Mac in parallel](http://www.cocoanetics.com/2013/09/radar-xcode-5-unable-to-configure-inline-unit-tests-for-ios-and-mac-in-parallel/) (rdar://15085316)
