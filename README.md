@@ -11,7 +11,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ### iOS 9 Bugs
 
-- **ABUnknownPersionViewControllerBug** [ABUnknownPersionViewController](http://www.cocoanetics.com/2015/06/radar-abunknownpersionviewcontroller/) (rdar://21357089, rdar://21438771)
+- **WidgetTabCellTest** [Table View Cells lose clickability in Today Widget](https://www.cocoanetics.com/2015/10/table-view-cells-lose-clickability-in-today-widget/), rdar://23298579 
 
 ### iOS 8 Bugs
 - **LocalNotification** App Delegate method didReceiveLocalNotification not being called, rdar://17976899
@@ -48,6 +48,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 ### iOS 9
 
 - **TransitionTest** [Percent-driven Interactive Animation has side effect on cancel at 0%](https://www.cocoanetics.com/2015/03/4-radars-percentage-driven-modal-transitions/) (rdar://20068860)
+- **ABUnknownPersionViewControllerBug** [ABUnknownPersionViewController](http://www.cocoanetics.com/2015/06/radar-abunknownpersionviewcontroller/) (rdar://21357089, rdar://21438771)
 
 #### iOS 8.3
 - **InputViewScrollViewBug**: [UIScrollView Should Not Adjust Content Inset if it is Input View](http://www.cocoanetics.com/2013/05/radar-uiscrollview-should-not-adjust-content-inset-if-it-is-input-view/) (rdar://13836932)
