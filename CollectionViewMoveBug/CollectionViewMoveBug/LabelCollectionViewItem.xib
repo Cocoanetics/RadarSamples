@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="16A319" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <collectionViewItem id="zy2-dt-leE" customClass="LabelCollectionViewItem" customModule="CollectionViewMoveBug" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="SsB-Zf-0Zz" id="eaI-tr-ygS"/>
+                <outlet property="view" destination="v6R-y8-1v0" id="iCv-pr-DQm"/>
+            </connections>
+        </collectionViewItem>
+        <customView wantsLayer="YES" id="v6R-y8-1v0" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SsB-Zf-0Zz">
+                    <rect key="frame" x="0.0" y="0.0" width="371" height="48"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" drawsBackground="YES" id="hQ4-J3-DgZ">
+                        <font key="font" metaFont="system" size="40"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="zy2-dt-leE" name="value" keyPath="representedObject.text" id="0kX-9I-fuB"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SsB-Zf-0Zz" secondAttribute="trailing" id="FTp-wH-VNH"/>
+                <constraint firstItem="SsB-Zf-0Zz" firstAttribute="leading" secondItem="v6R-y8-1v0" secondAttribute="leading" id="tKJ-Xf-dAu"/>
+                <constraint firstItem="SsB-Zf-0Zz" firstAttribute="top" secondItem="v6R-y8-1v0" secondAttribute="top" id="yFm-Nu-epW"/>
+            </constraints>
+            <point key="canvasLocation" x="544.5" y="372"/>
+        </customView>
+    </objects>
+</document>
