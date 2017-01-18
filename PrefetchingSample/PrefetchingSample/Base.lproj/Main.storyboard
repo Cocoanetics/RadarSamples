@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A319" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="S2T-2n-TpC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="E2i-WW-68f">
+            <objects>
+                <collectionViewController id="S2T-2n-TpC" customClass="ViewController" customModule="PrefetchingSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="5a0-ak-wWD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="TXZ-nh-B4q">
+                            <size key="itemSize" width="320" height="558"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MyCollectionViewCell" id="Fiu-8i-AcB" customClass="MyCollectionViewCell" customModule="PrefetchingSample" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="5" width="320" height="558"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="558"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAu-r7-pS7">
+                                            <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="rAu-r7-pS7" secondAttribute="trailing" id="5Zt-zw-xzw"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="rAu-r7-pS7" secondAttribute="bottom" id="7mW-TT-Sdq"/>
+                                    <constraint firstItem="rAu-r7-pS7" firstAttribute="top" secondItem="Fiu-8i-AcB" secondAttribute="topMargin" id="Mpz-Sm-jMB"/>
+                                    <constraint firstItem="rAu-r7-pS7" firstAttribute="leading" secondItem="Fiu-8i-AcB" secondAttribute="leadingMargin" id="YDT-29-Fx1"/>
+                                </constraints>
+                                <size key="customSize" width="320" height="558"/>
+                                <connections>
+                                    <outlet property="textLabel" destination="rAu-r7-pS7" id="l1h-Zs-MZe"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="S2T-2n-TpC" id="6pb-iD-2Ih"/>
+                            <outlet property="delegate" destination="S2T-2n-TpC" id="Ivk-J6-t8h"/>
+                            <outlet property="prefetchDataSource" destination="S2T-2n-TpC" id="V9J-7M-tyb"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksg-Ru-f0q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="210.40000000000001" y="-113.79310344827587"/>
+        </scene>
+    </scenes>
+</document>
