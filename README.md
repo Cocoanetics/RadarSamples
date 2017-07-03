@@ -13,6 +13,10 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 - **CollectionViewMoveBug** [NSCollectionView Move Sections Crash](https://www.cocoanetics.com/2016/09/bug-nscollectionview-move-sections-crash/), rdar://28337446
 
+### iOS 11 Bugs
+- **TextFieldColor** (textColor cannot be changed when set from Code)
+
+
 ### iOS 9 Bugs
 
 - **WidgetTabCellTest** [Table View Cells lose clickability in Today Widget](https://www.cocoanetics.com/2015/10/table-view-cells-lose-clickability-in-today-widget/), rdar://23298579 
