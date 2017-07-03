@@ -14,7 +14,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **CollectionViewMoveBug** [NSCollectionView Move Sections Crash](https://www.cocoanetics.com/2016/09/bug-nscollectionview-move-sections-crash/), rdar://28337446
 
 ### iOS 11 Bugs
-- **TextFieldColor** [textColor cannot be changed when set from Code] (http://www.openradar.me/33104437), rdar://33104437
+- **TextFieldColor** [textColor cannot be changed when set from Code](http://www.openradar.me/33104437), rdar://33104437
 
 
 ### iOS 9 Bugs
