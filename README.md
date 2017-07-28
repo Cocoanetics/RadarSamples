@@ -15,6 +15,7 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ### iOS 11 Bugs
 - **TextFieldColor** [textColor cannot be changed when set from Code](http://www.openradar.me/33104437), rdar://33104437
+- **ImageWithLinkAttributedStringCrashOnDragging** [Image with link attributed string crash on dragging](http://www.openradar.me/33588197), radar://33588197
 
 
 ### iOS 9 Bugs
