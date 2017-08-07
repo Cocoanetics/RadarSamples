@@ -17,6 +17,9 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 - **TextFieldColor** [textColor cannot be changed when set from Code](http://www.openradar.me/33104437), rdar://33104437
 - **ImageWithLinkAttributedStringCrashOnDragging** [Image with link attributed string crash on dragging](http://www.openradar.me/33588197), radar://33588197
 
+### Xcode 9 Bugs
+- **WrongWdithWithConstraints** [Auto Layout Constraints show wrong view size in Xcode 9](http://www.openradar.me/33752705), radar://33752705
+
 
 ### iOS 9 Bugs
 
