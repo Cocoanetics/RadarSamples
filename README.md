@@ -15,11 +15,12 @@ Making a fresh app project designed to only demonstrate the issue and nothing mo
 
 ### iOS 11 Bugs
 - **TextFieldColor** [textColor cannot be changed when set from Code](http://www.openradar.me/33104437), rdar://33104437
-- **ImageWithLinkAttributedStringCrashOnDragging** [Image with link attributed string crash on dragging](http://www.openradar.me/33588197), radar://33588197
-- **TableViewContentInsetDifferent** [ContentInset is different on iOS 10 and iOS 11](http://www.openradar.me/33874488), radar://33874488
+- **ImageWithLinkAttributedStringCrashOnDragging** [Image with link attributed string crash on dragging](http://www.openradar.me/33588197), rdar://33588197
+- **TableViewContentInsetDifferent** [ContentInset is different on iOS 10 and iOS 11](http://www.openradar.me/33874488), rdar://33874488
 
 ### Xcode 9 Bugs
-- **WrongWdithWithConstraints** [Auto Layout Constraints show wrong view size in Xcode 9](http://www.openradar.me/33752705), radar://33752705
+- **WrongWdithWithConstraints** [Auto Layout Constraints show wrong view size in Xcode 9](http://www.openradar.me/33752705), rdar://33752705
+- **InterfaceTest** [Quick Help no longer shows documentation from imported module](https://www.cocoanetics.com/2017/10/radar-xcode-quick-help-no-longer-shows-documentation-from-imported-module/), rdar://34789767
 
 
 ### iOS 9 Bugs
