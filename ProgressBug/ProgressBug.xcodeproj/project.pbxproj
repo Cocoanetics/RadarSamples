@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A78BA3F52763575100CD4997 /* ProgressBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BA3F42763575100CD4997 /* ProgressBugApp.swift */; };
-		A78BA3F72763575200CD4997 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BA3F62763575200CD4997 /* ContentView.swift */; };
-		A78BA3F92763575400CD4997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78BA3F82763575400CD4997 /* Assets.xcassets */; };
-		A78BA3FC2763575400CD4997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78BA3FB2763575400CD4997 /* Preview Assets.xcassets */; };
+		A74D41872795BE760078D0A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D41822795BE760078D0A5 /* ContentView.swift */; };
+		A74D41882795BE760078D0A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D41842795BE760078D0A5 /* Preview Assets.xcassets */; };
+		A74D41892795BE760078D0A5 /* ProgressBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D41852795BE760078D0A5 /* ProgressBugApp.swift */; };
+		A74D418A2795BE760078D0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D41862795BE760078D0A5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A74D41822795BE760078D0A5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A74D41842795BE760078D0A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74D41852795BE760078D0A5 /* ProgressBugApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBugApp.swift; sourceTree = "<group>"; };
+		A74D41862795BE760078D0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78BA3F12763575100CD4997 /* ProgressBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A78BA3F42763575100CD4997 /* ProgressBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBugApp.swift; sourceTree = "<group>"; };
-		A78BA3F62763575200CD4997 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A78BA3F82763575400CD4997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A78BA3FB2763575400CD4997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +32,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A74D41832795BE760078D0A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A74D41842795BE760078D0A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A78BA3E82763575100CD4997 = {
 			isa = PBXGroup;
 			children = (
-				A78BA3F32763575100CD4997 /* ProgressBug */,
+				A74D41862795BE760078D0A5 /* Assets.xcassets */,
+				A74D41822795BE760078D0A5 /* ContentView.swift */,
+				A74D41832795BE760078D0A5 /* Preview Content */,
+				A74D41852795BE760078D0A5 /* ProgressBugApp.swift */,
 				A78BA3F22763575100CD4997 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +57,6 @@
 				A78BA3F12763575100CD4997 /* ProgressBug.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A78BA3F32763575100CD4997 /* ProgressBug */ = {
-			isa = PBXGroup;
-			children = (
-				A78BA3F42763575100CD4997 /* ProgressBugApp.swift */,
-				A78BA3F62763575200CD4997 /* ContentView.swift */,
-				A78BA3F82763575400CD4997 /* Assets.xcassets */,
-				A78BA3FA2763575400CD4997 /* Preview Content */,
-			);
-			path = ProgressBug;
-			sourceTree = "<group>";
-		};
-		A78BA3FA2763575400CD4997 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A78BA3FB2763575400CD4997 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +91,7 @@
 				TargetAttributes = {
 					A78BA3F02763575100CD4997 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -125,8 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78BA3FC2763575400CD4997 /* Preview Assets.xcassets in Resources */,
-				A78BA3F92763575400CD4997 /* Assets.xcassets in Resources */,
+				A74D418A2795BE760078D0A5 /* Assets.xcassets in Resources */,
+				A74D41882795BE760078D0A5 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78BA3F72763575200CD4997 /* ContentView.swift in Sources */,
-				A78BA3F52763575100CD4997 /* ProgressBugApp.swift in Sources */,
+				A74D41872795BE760078D0A5 /* ContentView.swift in Sources */,
+				A74D41892795BE760078D0A5 /* ProgressBugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +259,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressBug/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = Z7L2YCUH45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,6 +279,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ics.ProgressBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,9 +290,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressBug/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = Z7L2YCUH45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
